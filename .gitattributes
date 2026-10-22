@@ -1,0 +1,4 @@
+# Normalize all text files to LF in the repo so GitBook's web editor
+# (which writes LF) and local Windows edits don't produce noisy
+# CRLF/LF churn when Git Sync round-trips changes.
+* text=auto eol=lf
